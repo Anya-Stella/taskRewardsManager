@@ -44,6 +44,13 @@ body {
 /* back-ground-color */
 .bg-wrapper{
     background: linear-gradient(to bottom right, var(--wrapper-color1), var(--wrapper-color2));
+
+    background-image: 
+  linear-gradient(
+    145deg in oklab, 
+    oklch(69% 0.43 84) 4% 4%, oklch(80% 0.50 284) 96% 96%
+  )
+;
 }
 
 

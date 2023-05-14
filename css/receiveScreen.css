@@ -32,7 +32,16 @@ body {
 
 /* back-ground-color */
 .bg-wrapper{
-    background: linear-gradient(to bottom right, var(--wrapper-color1), var(--wrapper-color2));
+
+    /* background: linear-gradient(to bottom right, var(--wrapper-color1), var(--wrapper-color2)); */
+    background-image: 
+    linear-gradient(
+      to bottom right in hsl, 
+      oklch(70% .5 340) 0%, oklch(90% .3 200) 100%
+    )
+  ;
+  
+
 }
 
 
