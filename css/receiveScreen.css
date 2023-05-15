@@ -43,11 +43,11 @@ body {
     height: 90vh;
 }
 
-.h-95p{
+.h-95{
     height: 95%;
 }
 
-.h-85p{
+.h-85{
     height: 85%;
 }
 
@@ -64,32 +64,26 @@ body {
 }
 
 .bg-wrapper2{
+    /* center虹色 */
     background-image: 
     conic-gradient(
-      from 0deg at 0% 0% in oklch, 
-      oklch(75% 0.5 156) 0%, oklch(70% 0.5 261) 100%
-    );
-}
-
-.bg-wrapper3{
-    background-image: 
-    linear-gradient(
-      to bottom right in oklab, 
-      oklch(100% .5 109) 0%, oklch(72% .5 100) 100%
+      from 163deg at 50% 47% in oklch longer hue, 
+      oklch(70% .3 0) 0%, oklch(70% .3 0) 100%
     );
 }
 
 .bg-test{
-    background-image: 
-    conic-gradient(
-      from 0deg at center in oklch, 
-      oklch(77% 0.50 0) 0%, 26%, oklch(77% 0.50 230) 0% 0%, 46%, oklch(77% 0.50 260) 0% 0%, 60%, oklch(77% 0.50 280) 0% 0%, 82%, oklch(77% 0.50 300) 0% 0%
-    )
-  ;
+
 }
+
+
 
 .bg-opasity-white{
     background-color: rgb(255, 255, 255, 0.4);
+}
+
+.bg-opasity-white2{
+    background-color: rgb(255, 255, 255, 0.2);
 }
 
 .bg-black{
