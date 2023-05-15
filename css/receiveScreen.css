@@ -72,10 +72,6 @@ body {
     );
 }
 
-.bg-test{
-
-}
-
 
 
 .bg-opasity-white{
@@ -208,3 +204,9 @@ body {
       transform: translateY(-150vh) rotate(250deg);
     }
   }
+
+
+/*動的場面に使うCSS*/
+.pointer-none{
+    pointer-events: none;
+}
