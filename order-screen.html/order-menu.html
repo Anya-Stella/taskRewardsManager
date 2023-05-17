@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>startPage</title>
+    <title>orderPage</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!--css-->
     <link rel="stylesheet" href="../css/master.css">
-    <link rel="stylesheet" href="../css/questBoard.css">
+    <link rel="stylesheet" href="../css/menuBtn.css">
 </head>
 
 <body>
@@ -38,25 +38,18 @@
 
 
     <!-- 背景 -->
-    <div class="bg-wrapper1 vh-90 overflow-hidden">
-       <!-- container -->
-       <div class="container col-11 h-95 z-index-100 my-1">
-            <!-- 見出し -->
-            <h1 class="col-12 px-0 m-2 text-left text-light rem2p5 border-bottom-double-bl">QuestBoard > QuestTitle</h1>
-            <!-- ボードの中身 -->
-            <div class="my-2 h-85 bg-opasity-white d-flex flex-column rounded text-light">
-                <!-- タイトル -->
-                <p class="p-2 bg-dark mx-2 my-1 rounded">バグ訂正 : 難易度★★☆☆☆ 期限5/20まで 担当：木村</p>
-                <!-- 説明欄 -->
-                <div class="h-75 bg-dark mx-2 my-1 rounded d-flex flex-column">
-                    <h3>Discription</h3>
-                    <div class="m-3">
-                        <p>testtestetststtststs</p>
-                    </div>
-                </div>
-                <button class="btn btn-danger m-2">accept</button>
+    <div class="bg-wrapper3 vh-90 d-flex flex-column align-items-center overflow-hidden">
+        <!-- container -->
+        <div class="container h-100 d-flex justify-content-center align-items-center z-index-100">
+            <div class="col-6 h-60 d-flex flex-column justify-content-around">
+                <button class="btn btn-info menu-btn-evaluate" onclick=""><h4>Evaluate</h4></button>
+                <button class="btn btn-info menu-btn" onclick=""><h4>Make Order</h4></button>
+                <button class="btn btn-info menu-btn" onclick=""><h4>Ongoing Project</h4></button>
+                <button class="btn btn-info menu-btn" onclick=""><h4>User Profiles</h4></button>
+                <button class="btn btn-info menu-btn" onclick=""><h4>User Ranking</h4></button>
             </div>
-       </div>
+        </div>
+       
 
        <!-- 背景バブル -->
        <ul class="bg-bubbles">
@@ -70,7 +63,8 @@
             <li class="child8 fadeUp box"></li>
             <li class="child9 fadeUp box"></li>
             <li class="child10 fadeUp box"></li>
-       </ul>
+        </ul>
     </div>
+
 </body>
 </html>
