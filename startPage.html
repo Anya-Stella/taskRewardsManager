@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!--css-->
-    <link rel="stylesheet" href="css\start.css">
+    <link rel="stylesheet" href="css/start.css">
+    <link rel="stylesheet" href="css/master.css">
 </head>
 
 <body>
@@ -37,9 +38,9 @@
 
 
     <!-- 背景 -->
-    <div class="bg-wrapper vh-90 d-flex flex-column justify-content-center align-items-center overflow-hidden">
+    <div class="bg-wrapper4 vh-90 d-flex flex-column justify-content-center align-items-center overflow-hidden">
         <!-- container -->
-        <div class="container receiveOrGive col-10 flex-column pb-4" id="start-container">
+        <div class="container receiveOrGive col-10 flex-column pb-4 z-index-100" id="start-container">
             <h1 class="text-left text-white py-2">Welcome</h1>
             <div class="d-flex justify-content-center py-3">
                 <button type="button" id="btnReceive" class="startPageBtn text-dark" onclick="appearReceiveForm()">Receive</button>
@@ -48,7 +49,7 @@
         </div>
 
         <!-- ログイン画面：受注 -->
-        <div class="login-form-contents col-4 position-absolute pb-5 d-none" id="Receive-login-screen">
+        <div class="login-form-contents col-4 position-absolute pb-5 d-none z-index-100" id="Receive-login-screen">
             <h1 class="py-1 text-white">受注:</h1>
             <form action="" method="post" id="formReceive">
                 <div class="form-group mb-4">
@@ -62,7 +63,7 @@
         </div>
 
         <!-- ログイン画面：発注 -->
-        <div class="login-form-contents col-4 position-absolute pb-5 d-none" id="Give-login-screen">
+        <div class="login-form-contents col-4 position-absolute pb-5 d-none z-index-100" id="Give-login-screen">
             <h1 class="py-1 text-white">発注:</h1>
             <form action="" method="post" id="formGive">
                 <div class="form-group mb-4">

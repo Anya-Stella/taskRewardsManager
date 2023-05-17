@@ -83,6 +83,15 @@ body {
     );
 }
 
+.bg-wrapper4{
+    /* home画面 */
+    background-image: 
+    linear-gradient(
+        145deg in oklab, 
+        oklch(69% 0.43 84) 4% 4%, oklch(80% 0.50 284) 96% 96%
+    );
+}
+
 
 
 .bg-opasity-white{
