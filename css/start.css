@@ -13,19 +13,6 @@ body {
 
 
 
-.bg-bubbles{
-    z-index: 1;
-}
-
-.receiveOrGive{
-    z-index: 2;
-}
-
-.login-form-contents{
-    z-index: 2;
-}
-
-
 
 /* start画面のボタンデザイン */
 .startPageBtn{

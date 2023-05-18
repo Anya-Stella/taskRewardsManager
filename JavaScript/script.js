@@ -1,3 +1,4 @@
+// start-screen-func
 function appearReceiveForm(){
     //btn要素の取得
     let btnR = document.getElementById("btnReceive");
@@ -32,4 +33,31 @@ function appearGiveForm(){
     let ReceiveLoginScreen = document.getElementById("Give-login-screen");
     ReceiveLoginScreen.classList.remove("d-none");
     ReceiveLoginScreen.classList.add("d-apper-slow");
+}
+
+
+
+
+// signUp-screen-func
+function appearReceiveRegister(){
+    // registerFirstScreenの非表示
+    let registerFirstScreen = document.getElementById("registerFirstScreen");
+    registerFirstScreen.classList.add("d-none");
+
+
+    //Receive-screenの表示
+    let registerReceiveScreen = document.getElementById("registerReceiveScreen");
+    registerReceiveScreen.classList.remove("d-none");
+    
+}
+
+function appearOrderRegister(){
+    // registerFirstScreenの非表示
+    let registerFirstScreen = document.getElementById("registerFirstScreen");
+    registerFirstScreen.classList.add("d-none");
+
+
+    //Order-screenの表示
+    let registerOrderScreen = document.getElementById("registerOrderScreen");
+    registerOrderScreen.classList.remove("d-none");
 }
