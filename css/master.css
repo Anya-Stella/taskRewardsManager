@@ -24,6 +24,11 @@ body {
     color: black;
 }
 
+/* textaria */
+.text-aria{
+    resize: none;
+}
+
 /* fontsize */
 .rem2p5{
     font-size: 2.5rem;
