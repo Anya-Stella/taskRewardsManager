@@ -44,39 +44,46 @@
             <!-- 見出し -->
             <h1 class="col-12 px-0 m-2 text-left text-light rem2p5 border-bottom-double-bl">Make Order</h1>
             <!-- ボードの中身 -->
-            <div class="my-2 h-auto bg-opasity-white d-flex flex-column rounded text-light px-3 py-1">
-                <form method="post">
-                    <!-- タイトル -->
-                    <div class="form-group col-12 mb-1">
-                        <label for="order-title">Title:</label>
-                        <input type="text" id="order-title" class="form-control" placeholder="Ex) バグ修正の依頼：">
-                    </div>
-                    <div class="d-flex">
-                        <!-- GroupeID -->
-                        <div class="form-group col-4">
-                            <label for="order-GID">GroupeID(size-7):</label>
-                            <input type="text" id="order-GID" class="form-control" placeholder="Ex) abc1234">
+            <div class="my-2 h-90 bg-opasity-white d-flex flex-column rounded text-light px-3 py-1">
+                <form method="post" class="h-100">
+                    <div class="h-25">
+                        <!-- タイトル -->
+                        <div class="form-group col-12 mb-1">
+                            <label for="order-title">Title:</label>
+                            <input type="text" id="order-title" class="form-control" placeholder="Ex) バグ修正の依頼：">
                         </div>
-                        <!-- 期限 -->
-                        <div class="form-group col-4">
-                            <label for="order-limit">Limit:</label>
-                            <input type="text" id="order-limit" class="form-control" placeholder="Ex) 2023/ 05/ 20/ 17:00">
+                        <div class="d-flex">
+                            <!-- GroupeID -->
+                            <div class="form-group col-4">
+                                <label for="order-GID">GroupeID(size-7):</label>
+                                <input type="text" id="order-GID" class="form-control" placeholder="Ex) abc1234">
+                            </div>
+                            <!-- 期限 -->
+                            <div class="form-group col-4">
+                                <label for="order-limit">Limit:</label>
+                                <input type="text" id="order-limit" class="form-control" placeholder="Ex) 2023/ 05/ 20/ 17:00">
+                            </div>
+                            <!-- 難易度 -->
+                            <div class="form-group col-4">
+                                <label for="order-dif">Difficulty lebel(1~5):</label>
+                                <input type="text" id="order-dif" class="form-control" placeholder="Ex) 5">
+                            </div>
                         </div>
-                        <!-- 難易度 -->
-                        <div class="form-group col-4">
-                            <label for="order-dif">Difficulty lebel(1~5):</label>
-                            <input type="text" id="order-dif" class="form-control" placeholder="Ex) 5">
+                    </div>
+                    <div class="h-75 border border-info">
+                        <!-- 説明 -->
+                        <div class="form-group col-12 mb-0 border border-danger h-75">
+                            <label for="order-disc">Discription:</label>
+                            <textarea id="order-disc" class="col-12 rounded h-85" rows="5" placeholder="EX) fix bug."></textarea>
+                        </div>
+                        <!-- 送信 -->
+                        <div class="form-group col-12 d-flex justify-content-end align-items-center h-25 border border-primary">
+                            <button class="btn btn-info mt-2" type="submit">next ></button>
                         </div>
                     </div>
-                    <!-- 説明 -->
-                    <div class="form-group col-12 mb-0">
-                        <label for="order-disc">Discription:</label>
-                        <textarea id="order-disc" class="col-12 rounded text-aria" rows="5" placeholder="EX) fix bug."></textarea>
-                    </div>
-                    <!-- 送信 -->
-                    <div class="form-group col-12 d-flex justify-content-end align-items-center">
-                        <button class="btn btn-info mt-2" type="submit">next ></button>
-                    </div>
+
+
+                    
                 </form>
             </div>
        </div>
