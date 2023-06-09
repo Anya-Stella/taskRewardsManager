@@ -1,10 +1,11 @@
-// start-screen-func
+// log-in-screen
+/** ログインフォーム(receive)を出現させる関数*/
 function appearReceiveForm(){
     //btn要素の取得
     let btnR = document.getElementById("btnReceive");
     let btnG = document.getElementById("btnGive");
 
-    //クリックした時btnのカーソル反応を消し次の画面へ繊維
+    //クリックした時btnのカーソル反応を消し次の画面へ切り替え
     btnR.classList.add("pointer-none");
     btnG.classList.add("pointer-none");
 
@@ -14,9 +15,10 @@ function appearReceiveForm(){
     //受注ログイン画面を出す
     let ReceiveLoginScreen = document.getElementById("Receive-login-screen");
     ReceiveLoginScreen.classList.remove("d-none");
-    ReceiveLoginScreen.classList.add("d-apper-slow");
+    ReceiveLoginScreen.classList.add("d-appear-slow");
 }
 
+/**ログインフォーム(order)を出現させる関数 */
 function appearGiveForm(){
     //btn要素の取得
     let btnR = document.getElementById("btnReceive");
@@ -32,13 +34,13 @@ function appearGiveForm(){
     //受注ログイン画面を出す
     let ReceiveLoginScreen = document.getElementById("Give-login-screen");
     ReceiveLoginScreen.classList.remove("d-none");
-    ReceiveLoginScreen.classList.add("d-apper-slow");
+    ReceiveLoginScreen.classList.add("d-appear-slow");
 }
 
 
 
-
-// signUp-screen-func
+// sign-up-screen
+/**サインアップフォーム(receive)を出現させる関数 */
 function appearReceiveRegister(){
     // registerFirstScreenの非表示
     let registerFirstScreen = document.getElementById("registerFirstScreen");
@@ -51,6 +53,7 @@ function appearReceiveRegister(){
     
 }
 
+/**サインアップフォーム(order)を出現させる関数 */
 function appearOrderRegister(){
     // registerFirstScreenの非表示
     let registerFirstScreen = document.getElementById("registerFirstScreen");
@@ -61,3 +64,7 @@ function appearOrderRegister(){
     let registerOrderScreen = document.getElementById("registerOrderScreen");
     registerOrderScreen.classList.remove("d-none");
 }
+
+
+
+//

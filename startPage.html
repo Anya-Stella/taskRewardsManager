@@ -51,41 +51,44 @@
         <!-- ログイン画面：受注 -->
         <div class="col-4 position-absolute pb-5 d-none z-index-100" id="Receive-login-screen">
             <h1 class="py-1 text-white">Receive:</h1>
-            <form action="" method="post" id="formReceive">
+            <form method="post" id="formReceive">
                 <!-- username -->
                 <div class="form-group mb-4">
-                    <input class="form-control form-login" type="text" placeholder="Username" id="usernameR">
+                    <input class="form-control form-login" type="text" placeholder="Username" required id="usernameR">
                 </div>
                 <!-- pass -->
                 <div class="form-group mb-4">
-                    <input class="form-control form-login" type="password" placeholder="Password" id="passwordR">
+                    <input class="form-control form-login" type="password" placeholder="Password" required id="passwordR">
                 </div>
                 <!-- Gr-ID -->
                 <div class="form-group mb-4">
-                    <input class="form-control form-login" type="text" placeholder="GroupeID" id="">
+                    <input class="form-control form-login" type="text" placeholder="GroupeID" required id="">
                 </div>
+                <!-- submit -->
+                <button class="button-login col-12" type="submit">Login</button>
             </form>
-            <button class="button-login col-12" type="submit">Login</button>
+            
         </div>
 
         <!-- ログイン画面：発注 -->
         <div class="col-4 position-absolute pb-5 d-none z-index-100" id="Give-login-screen">
             <h1 class="py-1 text-white">Order:</h1>
-            <form action="" method="post" id="formReceive">
+            <form method="post" id="formReceive">
                 <!-- username -->
                 <div class="form-group mb-4">
-                    <input class="form-control form-login" type="text" placeholder="Username" id="usernameG">
+                    <input class="form-control form-login" type="text" placeholder="Username" required id="usernameG">
                 </div>
                 <!-- pass -->
                 <div class="form-group mb-4">
-                    <input class="form-control form-login" type="password" placeholder="Password" id="passwordG">
+                    <input class="form-control form-login" type="password" placeholder="Password" required id="passwordG">
                 </div>
                 <!-- Gr-ID -->
                 <div class="form-group mb-4">
-                    <input class="form-control form-login" type="text" placeholder="GroupeID" id="">
+                    <input class="form-control form-login" type="text" placeholder="GroupeID" required id="">
                 </div>
+                <!-- submit -->
+                <button class="button-login col-12" type="submit">Login</button>
             </form>
-            <button class="button-login col-12" type="submit">Login</button>
         </div>
 
         <!-- 背景バブル -->
